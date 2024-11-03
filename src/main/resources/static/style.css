@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    user-select: none;
+}
+
+body {
+    height: 100%;
+    overflow: hidden; /* 스크롤바 제거 */
+}
+
+#background {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* 비율을 유지하면서 화면에 맞게 조절 */
+    transform: translate(-50%, -49%);
+    opacity: 95%;
+}

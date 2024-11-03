@@ -11,4 +11,9 @@ public class TestController {
     public String testMain() {
         return "test/test.html";
     }
+
+//    @GetMapping("/")
+//    public String test() {
+//        return "main/index.html";
+//    }
 }
